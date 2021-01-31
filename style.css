@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #45567d;
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 360px;
+  background: #f3f3f3;
+  border-radius: 20px;
+}
+
+h1 {
+  background: #303841;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  border-radius: 20px 20px 0 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form > p {
+  margin: 5px;
+}
+
+#bill-amount {
+  font-size: 14px;
+  color: black;
+  background-color: #f7f7f7;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+#bill-amount:focus {
+  background: #fff;
+  border: 2px solid #2980b9;
+  outline: none;
+}
+
+#people-amount {
+  padding: 5px;
+  color: black;
+  background-color: #f7f7f7;
+  font-size: 14px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+#people-amount:focus {
+  background: #fff;
+  border: 2px solid #2980b9;
+  outline: none;
+}
+
+#service-quality {
+  padding: 5px;
+  font-size: 14px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  margin: 20px;
+  border: none;
+  background: #45567d;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  outline: none;
+}
+
+button:hover {
+  background: #5ec576;
+  color: black;
+}
+
+#totalTip {
+  font-size: 30px;
+  text-align: center;
+}
+
+#totalTip:before {
+  content: "TIP AMOUNT!";
+  font-size: 20px;
+  display: block;
+}
+
+#totalTip sup {
+  font-size: 20px;
+}
+
+#totalTip small {
+  font-size: 20px;
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  #container {
+    width: 300px;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  form > p {
+    margin: 3px;
+    font-size: 14px;
+  }
+
+  #bill-amount {
+    font-size: 12px;
+    padding: 3px;
+    margin: 5px;
+  }
+
+  #people-amount {
+    padding: 3px;
+    font-size: 12px;
+    margin: 5px;
+  }
+
+  #service-quality {
+    padding: 3px;
+    font-size: 12px;
+    margin: 5px;
+  }
+
+  button {
+    margin: 10px;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  #totalTip {
+    font-size: 25px;
+  }
+
+  #totalTip:before {
+    font-size: 16px;
+  }
+
+  #totalTip sup {
+    font-size: 16px;
+  }
+
+  #totalTip small {
+    font-size: 16px;
+  }
+}
