@@ -2,14 +2,15 @@
 > A mobile friendly web application that helps calculating tips with respect to number of people sharing the bill & quality of service. 
 
 ## Table of contents
-* [Link](#link)
+* [Preview Link](#preview-link)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
+* [Contact](#contact)
 
 
-## Link
+## Preview Link
 [JavaScript Tip Calculator](https://ajinkyap22.github.io/Tip-Calculator/)
 
 ## Technologies
@@ -29,3 +30,6 @@ Just run the index.html file & you are good to go.
 
 ## Status
 Project is: _finished_
+
+## Contact
+Feel free to contact me at my mail - palaskarajinkya22@gmail.com
